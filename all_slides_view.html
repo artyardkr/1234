@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Slides View - Full Deck</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-black': '#000000',
+                        'brand-dark': '#0b4236',
+                        'brand-main': '#0b6e69',
+                        'brand-gray': '#adc2c1',
+                        'brand-light': '#f1f1f1',
+                        'brand-bg': '#f4f4f4',
+                        'brand-accent': '#F59E0B', // Amber/Gold for highlights
+                        'brand-point': '#E76F51', // Terracotta for emphasis/problems
+                    },
+                    fontFamily: {
+                        'sans': ['Noto Sans KR', 'sans-serif'],
+                        'gothic': ['Nanum Gothic', 'sans-serif'],
+                        'serif': ['Nanum Myeongjo', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #000000;
+        }
+
+        .slide-container {
+            margin: 40px auto;
+            border: none;
+            border-radius: 0;
+            overflow: hidden;
+            width: 1280px;
+            height: 720px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .slide-title-header {
+            text-align: center;
+            font-size: 2.5em;
+            margin: 60px 0 30px 0;
+            font-weight: 700;
+            color: #0b4236;
+        }
+
+        .slide-number {
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: 500;
+            color: #adc2c1;
+            margin-bottom: 10px;
+            margin-top: 60px;
+        }
+
+        .nanum-square-like {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+        }
+
+        /* Custom Utilities */
+        .text-brand-gradient {
+            background: linear-gradient(to right, #0b4236, #0b6e69);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .bg-brand-gradient {
+            background: linear-gradient(135deg, #0b4236 0%, #0b6e69 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="slide-title-header">전체 슬라이드 보기 (Full Deck)</h1>
+
+    <!-- Slide 1: Title -->
+    <div class="slide-number">슬라이드 1</div>
+    <div class="slide-container">
+        <div
+            class="slide w-full h-full bg-brand-gradient text-white flex flex-col justify-center items-center text-center p-16 relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
+            </div>
+            <div class="z-10 border-4 border-brand-gray p-12 relative">
+                <div
+                    class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-[#0b4e48] px-6 py-2 text-brand-gray tracking-widest text-sm uppercase">
+                    Marketing Strategy</div>
+                <h1 class="nanum-square-like text-6xl leading-tight font-bold mb-8">낙동강생물자원관<br>관람객 증대를 위한<br>마케팅 전략 제안
+                </h1>
+                <div class="w-32 h-1 bg-brand-gray mx-auto my-8"></div>
+                <p class="nanum-gothic text-3xl text-brand-light font-light">소비자 행동 중심 4P 전략</p>
+                <p class="nanum-gothic text-lg mt-12 text-brand-gray">2025. 11. 24. | 국립낙동강생물자원관 전시부</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Contents -->
+    <div class="slide-number">슬라이드 2</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-20 flex flex-col">
+            <h1 class="nanum-square-like text-5xl text-brand-dark mb-16 border-b-2 border-brand-light pb-6">CONTENTS
+            </h1>
+            <div class="space-y-8 pl-4">
+                <div class="flex items-center group">
+                    <span
+                        class="text-6xl font-bold text-brand-gray mr-8 group-hover:text-brand-main transition-colors">01</span>
+                    <span class="text-4xl font-bold text-brand-black group-hover:text-brand-dark transition-colors">현황
+                        분석 및 문제 정의</span>
+                </div>
+                <div class="flex items-center group">
+                    <span
+                        class="text-6xl font-bold text-brand-gray mr-8 group-hover:text-brand-main transition-colors">02</span>
+                    <span class="text-4xl font-bold text-brand-black group-hover:text-brand-dark transition-colors">소비자
+                        행동 분석</span>
+                </div>
+                <div class="flex items-center group">
+                    <span
+                        class="text-6xl font-bold text-brand-gray mr-8 group-hover:text-brand-main transition-colors">03</span>
+                    <div>
+                        <span
+                            class="text-4xl font-bold text-brand-black group-hover:text-brand-dark transition-colors">4P
+                            마케팅 전략</span>
+                        <p class="text-xl text-brand-main mt-2 font-medium">Product • Price • Promotion • Place</p>
+                    </div>
+                </div>
+                <div class="flex items-center group">
+                    <span
+                        class="text-6xl font-bold text-brand-gray mr-8 group-hover:text-brand-main transition-colors">04</span>
+                    <span class="text-4xl font-bold text-brand-black group-hover:text-brand-dark transition-colors">리스크
+                        관리</span>
+                </div>
+                <div class="flex items-center group">
+                    <span
+                        class="text-6xl font-bold text-brand-gray mr-8 group-hover:text-brand-main transition-colors">05</span>
+                    <span class="text-4xl font-bold text-brand-black group-hover:text-brand-dark transition-colors">실행
+                        계획 및 기대 효과</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Part 1 Cover -->
+    <div class="slide-number">슬라이드 3</div>
+    <div class="slide-container">
+        <div
+            class="slide w-full h-full bg-brand-dark text-white flex flex-col justify-center items-center text-center relative overflow-hidden">
+            <div
+                class="absolute right-0 bottom-0 text-[20rem] text-brand-main opacity-20 font-bold leading-none -mb-20 -mr-20">
+                01</div>
+            <p class="text-2xl tracking-[0.5em] text-brand-gray mb-4">PART 01</p>
+            <h1 class="nanum-square-like text-7xl font-bold z-10">현황 분석 및<br>문제 정의</h1>
+            <div class="w-20 h-1 bg-brand-main mt-12"></div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Crisis Signal -->
+    <div class="slide-number">슬라이드 4</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                위기의 신호: 관람객 지속 감소
+            </h1>
+            <div class="flex-grow grid grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-xl">
+                    <div class="flex justify-between items-center p-4 border-b border-brand-light">
+                        <span class="text-gray-500">2020년</span>
+                        <span class="font-bold">72,026명</span>
+                    </div>
+                    <div class="flex justify-between items-center p-4 border-b border-brand-light">
+                        <span class="text-gray-500">2021년</span>
+                        <span class="font-bold">89,773명</span>
+                    </div>
+                    <div class="flex justify-between items-center p-4 border-b border-brand-light">
+                        <span class="text-gray-500">2022년</span>
+                        <span class="font-bold">128,748명</span>
+                    </div>
+                    <div class="flex justify-between items-center p-4 border-b border-brand-light">
+                        <span class="text-gray-500">2023년</span>
+                        <span class="font-bold">145,208명</span>
+                    </div>
+                    <div
+                        class="flex justify-between items-center p-6 bg-brand-light rounded-lg border-l-4 border-brand-black">
+                        <span class="text-brand-dark font-bold">2024년</span>
+                        <div class="text-right">
+                            <span class="block text-3xl font-bold text-brand-black">134,991명</span>
+                            <span class="text-brand-main font-bold">▼ 7.0% 감소</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-full bg-brand-bg rounded-xl p-8 flex items-end justify-between space-x-4">
+                    <div class="w-full bg-brand-gray h-[40%] rounded-t-lg relative group"><span
+                            class="absolute -top-8 left-1/2 -translate-x-1/2 text-sm text-gray-500">'20</span></div>
+                    <div class="w-full bg-brand-gray h-[50%] rounded-t-lg relative group"><span
+                            class="absolute -top-8 left-1/2 -translate-x-1/2 text-sm text-gray-500">'21</span></div>
+                    <div class="w-full bg-brand-main h-[75%] opacity-60 rounded-t-lg relative group"><span
+                            class="absolute -top-8 left-1/2 -translate-x-1/2 text-sm text-gray-500">'22</span></div>
+                    <div class="w-full bg-brand-main h-[85%] rounded-t-lg relative group"><span
+                            class="absolute -top-8 left-1/2 -translate-x-1/2 text-sm text-gray-500">'23</span></div>
+                    <div class="w-full bg-brand-black h-[78%] rounded-t-lg relative group">
+                        <span
+                            class="absolute -top-8 left-1/2 -translate-x-1/2 text-sm font-bold text-brand-black">'24</span>
+                        <span class="absolute top-4 left-1/2 -translate-x-1/2 text-xs text-white">▼7%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: Problem 1 -->
+    <div class="slide-number">슬라이드 5</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                문제 1: 낮은 지역 인지도
+            </h1>
+            <div class="flex-grow flex flex-col items-center justify-center">
+                <div class="flex items-center justify-center space-x-16 w-full">
+                    <div
+                        class="relative w-80 h-80 rounded-full border-[20px] border-brand-light flex items-center justify-center">
+                        <div
+                            class="absolute inset-0 rounded-full border-[20px] border-brand-main border-r-transparent border-b-transparent border-l-transparent transform rotate-45">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-gray-500 text-lg">대구/경북</p>
+                            <p class="text-4xl font-bold text-brand-main">64.1%</p>
+                        </div>
+                    </div>
+                    <div
+                        class="relative w-60 h-60 rounded-full border-[20px] border-brand-light flex items-center justify-center">
+                        <div
+                            class="absolute inset-0 rounded-full border-[20px] border-brand-black border-t-transparent border-r-transparent border-l-transparent transform -rotate-12">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-gray-500">상주</p>
+                            <p class="text-4xl font-bold text-brand-point">6.4%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 p-6 bg-brand-bg border-l-4 border-brand-dark w-full max-w-4xl">
+                    <p class="text-2xl text-center font-medium">
+                        <span class="text-brand-main font-bold">"10년 된 시설"</span>임에도 불구하고,<br>
+                        소재지인 <span class="text-brand-point font-bold border-b-2 border-brand-point">상주시 거주 관람객 비율이
+                            6.4%</span>에 불과
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: Problem 2 -->
+    <div class="slide-number">슬라이드 6</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                문제 2: 홍보 채널의 구조적 문제
+            </h1>
+            <div class="flex-grow flex flex-col justify-center space-y-10">
+                <div class="w-full">
+                    <div class="flex justify-between mb-2 text-xl font-bold text-brand-dark">
+                        <span>가족/지인 추천 (입소문)</span>
+                        <span>62.0%</span>
+                    </div>
+                    <div class="w-full bg-brand-light h-6 rounded-full overflow-hidden">
+                        <div class="bg-brand-main h-full rounded-full" style="width: 62%"></div>
+                    </div>
+                    <p class="text-gray-500 mt-2 text-sm">확산 속도가 느리고 도달 범위가 제한적임</p>
+                </div>
+
+                <div class="w-full opacity-50">
+                    <div class="flex justify-between mb-2 text-xl font-bold text-gray-600">
+                        <span>인터넷 검색</span>
+                        <span>18.4%</span>
+                    </div>
+                    <div class="w-full bg-brand-light h-6 rounded-full overflow-hidden">
+                        <div class="bg-gray-400 h-full rounded-full" style="width: 18.4%"></div>
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <div class="flex justify-between mb-2 text-xl font-bold text-brand-black">
+                        <span>SNS / 유튜브</span>
+                        <span class="text-brand-black">18.4%</span>
+                    </div>
+                    <div class="w-full bg-brand-light h-6 rounded-full overflow-hidden relative">
+                        <div class="bg-brand-black h-full rounded-full" style="width: 18.4%"></div>
+                    </div>
+                    <p class="text-brand-point font-bold mt-2 text-sm">⚠️ 디지털 채널 활용 부족 → MZ세대 학부모층 접근성 낮음</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: Problem 3 -->
+    <div class="slide-number">슬라이드 7</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                문제 3: 전시 경험의 불균형
+            </h1>
+            <div class="grid grid-cols-3 gap-8 h-full items-center">
+                <div
+                    class="bg-brand-bg p-8 rounded-xl text-center h-80 flex flex-col justify-center border border-brand-light">
+                    <h3 class="text-2xl font-bold text-brand-dark mb-4">제1전시실</h3>
+                    <div class="text-5xl font-bold text-brand-main mb-2">67.8%</div>
+                    <p class="text-gray-500">만족도 최고</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-xl text-center h-80 flex flex-col justify-center border-2 border-brand-gray shadow-lg transform scale-105 z-10">
+                    <h3 class="text-2xl font-bold text-brand-black mb-4">미생물전시실</h3>
+                    <div class="text-5xl font-bold text-brand-black mb-2">55.3%</div>
+                    <p class="text-brand-black font-bold bg-brand-light inline-block px-2 py-1 rounded mx-auto mt-2">▼
+                        12.5%p</p>
+                </div>
+                <div class="bg-brand-black text-white p-8 rounded-xl text-center h-80 flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold mb-4 text-brand-gray">제2전시실</h3>
+                    <div class="text-5xl font-bold text-white mb-2">53.1%</div>
+                    <p class="text-brand-point font-bold">▼ 14.7%p (최저)</p>
+                </div>
+            </div>
+            <p class="text-center text-xl mt-8 text-brand-dark font-medium">"후반부로 갈수록 피로감 증가와 흥미 저하 발생"</p>
+        </div>
+    </div>
+
+    <!-- Slide 8: Problem 4 -->
+    <div class="slide-number">슬라이드 8</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                문제 4: 편의시설 부족 (최대 불만)
+            </h1>
+            <div class="flex-grow grid grid-cols-2 gap-12">
+                <div class="bg-brand-bg p-8 rounded-xl">
+                    <h3 class="text-2xl font-bold text-brand-black mb-6">불만족 이유 Top 3</h3>
+                    <ul class="space-y-4 text-xl">
+                        <li class="flex justify-between items-center p-4 bg-white rounded shadow-sm">
+                            <span><span class="text-brand-main font-bold mr-2">1위</span> 편의점/매점 미운영</span>
+                            <span class="font-bold">87명</span>
+                        </li>
+                        <li class="flex justify-between items-center p-4 bg-white rounded shadow-sm">
+                            <span><span class="text-brand-main font-bold mr-2">2위</span> 카페 미운영</span>
+                            <span class="font-bold">84명</span>
+                        </li>
+                        <li class="flex justify-between items-center p-4 bg-white rounded shadow-sm">
+                            <span><span class="text-brand-main font-bold mr-2">3위</span> 식당 미운영</span>
+                            <span class="font-bold">61명</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col justify-center space-y-8">
+                    <div>
+                        <div class="flex justify-between text-xl mb-2">
+                            <span>전체 평균 만족도</span>
+                            <span class="font-bold text-brand-main">92.6점</span>
+                        </div>
+                        <div class="w-full bg-brand-light h-4 rounded-full">
+                            <div class="bg-brand-main h-full rounded-full" style="width: 92.6%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-xl mb-2">
+                            <span class="font-bold text-brand-black">휴식 공간 만족도</span>
+                            <span class="font-bold text-brand-black">86.0점</span>
+                        </div>
+                        <div class="w-full bg-brand-light h-4 rounded-full">
+                            <div class="bg-brand-black h-full rounded-full" style="width: 86%"></div>
+                        </div>
+                        <p class="text-right text-sm text-brand-point mt-1 font-bold">3년 연속 최저 항목</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9: Summary -->
+    <div class="slide-number">슬라이드 9</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 text-center">🎯 핵심 문제 요약</h1>
+            <div class="grid grid-cols-2 gap-6 h-full">
+                <div class="bg-brand-bg p-8 rounded-lg border-t-4 border-brand-main flex flex-col justify-between">
+                    <h3 class="text-brand-main font-bold text-xl tracking-widest">PLACE</h3>
+                    <div>
+                        <p class="text-gray-500 text-sm mb-1">낮은 지역 인지도</p>
+                        <p class="text-3xl font-bold text-brand-black">상주시 6.4%</p>
+                    </div>
+                </div>
+                <div class="bg-brand-bg p-8 rounded-lg border-t-4 border-brand-black flex flex-col justify-between">
+                    <h3 class="text-brand-black font-bold text-xl tracking-widest">PROMOTION</h3>
+                    <div>
+                        <p class="text-gray-500 text-sm mb-1">디지털 홍보 부족</p>
+                        <p class="text-3xl font-bold text-brand-black">SNS 18.4%</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-brand-black text-white p-8 rounded-lg border-t-4 border-brand-gray flex flex-col justify-between">
+                    <h3 class="text-brand-gray font-bold text-xl tracking-widest">PRODUCT</h3>
+                    <div>
+                        <p class="text-gray-400 text-sm mb-1">후반부 몰입도 저하</p>
+                        <p class="text-3xl font-bold text-white">-14.7%p</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-brand-black text-white p-8 rounded-lg border-t-4 border-brand-gray flex flex-col justify-between">
+                    <h3 class="text-brand-gray font-bold text-xl tracking-widest">PRODUCT</h3>
+                    <div>
+                        <p class="text-gray-400 text-sm mb-1">편의시설 부족</p>
+                        <p class="text-3xl font-bold text-white">만족도 최저</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Part 2 Cover -->
+    <div class="slide-number">슬라이드 10</div>
+    <div class="slide-container">
+        <div
+            class="slide w-full h-full bg-brand-main text-white flex flex-col justify-center items-center text-center relative overflow-hidden">
+            <div
+                class="absolute right-0 bottom-0 text-[20rem] text-brand-dark opacity-20 font-bold leading-none -mb-20 -mr-20">
+                02</div>
+            <p class="text-2xl tracking-[0.5em] text-brand-gray mb-4">PART 02</p>
+            <h1 class="nanum-square-like text-7xl font-bold z-10">소비자 행동<br>분석</h1>
+            <div class="w-20 h-1 bg-brand-black mt-12"></div>
+        </div>
+    </div>
+
+    <!-- Slide 11: Persona -->
+    <div class="slide-number">슬라이드 11</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                핵심 타겟 페르소나
+            </h1>
+            <div class="flex gap-12 h-full">
+                <div
+                    class="w-1/3 bg-brand-dark text-white p-8 rounded-xl flex flex-col items-center text-center justify-center">
+                    <div class="w-32 h-32 bg-brand-gray rounded-full mb-6 border-4 border-brand-main overflow-hidden">
+                        <img src="https://i.imgur.com/L6p8Q4X.png"
+                            class="w-full h-full object-cover opacity-80 mix-blend-multiply bg-white" alt="Persona">
+                    </div>
+                    <h2 class="text-3xl font-bold mb-2">김지영 (38세)</h2>
+                    <p class="text-brand-gray mb-6">직장인 (육아휴직 중)</p>
+                    <div class="w-full text-left space-y-2 text-sm bg-black/20 p-4 rounded-lg">
+                        <p>🏷️ <strong>자녀:</strong> 초3 남아</p>
+                        <p>🏷️ <strong>관심사:</strong> 교육, 체험학습</p>
+                        <p>🏷️ <strong>SNS:</strong> 인스타그램, 맘카페</p>
+                    </div>
+                </div>
+                <div class="w-2/3 flex flex-col justify-center space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-brand-black mb-4">관람객 데이터 (2024)</h3>
+                        <div class="flex space-x-4">
+                            <div class="flex-1 bg-brand-bg p-4 rounded-lg text-center">
+                                <p class="text-gray-500 text-sm">어린이 비중</p>
+                                <p class="text-3xl font-bold text-brand-main">40.3%</p>
+                            </div>
+                            <div class="flex-1 bg-brand-bg p-4 rounded-lg text-center">
+                                <p class="text-gray-500 text-sm">가족 동반</p>
+                                <p class="text-3xl font-bold text-brand-black">61.2%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 border-l-4 border-brand-main bg-brand-light">
+                        <p class="text-xl text-brand-dark font-medium leading-relaxed">
+                            "핵심 타겟은 <span class="font-bold border-b-2 border-brand-dark">초등학생 자녀를 둔 3040
+                                학부모</span>이며,<br>
+                            교육적 가치와 아이들의 흥미를 동시에 추구합니다."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 12: Monthly Visitors -->
+    <div class="slide-number">슬라이드 12</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                관람 행태 분석: 월별 관람객
+            </h1>
+            <div class="flex-grow flex flex-col items-center justify-center relative">
+                <!-- Graph Visualization -->
+                <div class="w-full h-64 border-b-2 border-brand-gray flex items-end justify-between px-8 relative">
+                    <!-- Peak 1 -->
+                    <div class="flex flex-col items-center group">
+                        <div
+                            class="mb-2 text-brand-main font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                            20,909</div>
+                        <div class="w-4 h-4 bg-brand-main rounded-full z-10"></div>
+                        <div class="h-48 w-0.5 bg-brand-main/30 border-l border-dashed border-brand-main"></div>
+                        <div class="mt-4 font-bold">5월</div>
+                        <div class="absolute top-0 left-[15%] bg-brand-black text-white text-xs px-2 py-1 rounded">어린이날
+                        </div>
+                    </div>
+                    <!-- Dip -->
+                    <div class="flex flex-col items-center">
+                        <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+                        <div class="h-24 w-0.5 bg-transparent"></div>
+                        <div class="mt-4 text-gray-400">6월</div>
+                    </div>
+                    <!-- Peak 2 -->
+                    <div class="flex flex-col items-center group">
+                        <div
+                            class="mb-2 text-brand-main font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                            12,626</div>
+                        <div class="w-4 h-4 bg-brand-main rounded-full z-10"></div>
+                        <div class="h-32 w-0.5 bg-brand-main/30 border-l border-dashed border-brand-main"></div>
+                        <div class="mt-4 font-bold">8월</div>
+                        <div class="absolute top-[30%] left-[50%] bg-brand-black text-white text-xs px-2 py-1 rounded">
+                            여름방학</div>
+                    </div>
+                    <!-- Peak 3 -->
+                    <div class="flex flex-col items-center group">
+                        <div
+                            class="mb-2 text-brand-main font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                            14,325</div>
+                        <div class="w-4 h-4 bg-brand-main rounded-full z-10"></div>
+                        <div class="h-36 w-0.5 bg-brand-main/30 border-l border-dashed border-brand-main"></div>
+                        <div class="mt-4 font-bold">10월</div>
+                        <div class="absolute top-[25%] right-[15%] bg-brand-black text-white text-xs px-2 py-1 rounded">
+                            현장학습</div>
+                    </div>
+                </div>
+                <!-- Connecting Line (SVG) -->
+                <svg class="absolute top-0 left-0 w-full h-full pointer-events-none px-8" style="top: -2rem;">
+                    <path d="M 100 150 Q 300 300 550 220 T 900 200" fill="none" stroke="#0b6e69" stroke-width="3" />
+                </svg>
+
+                <div class="mt-12 p-6 bg-brand-bg w-full text-center rounded-lg">
+                    <p class="text-xl text-brand-dark">💡 학교 일정(방학, 현장학습)과 밀접한 연관 → <span class="font-bold">어린이·가족 타겟
+                            재확인</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 13: Journey Map -->
+    <div class="slide-number">슬라이드 13</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-16 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                고객 여정 맵 (Customer Journey Map)
+            </h1>
+            <div class="relative flex justify-between items-start mt-8">
+                <div class="absolute top-8 left-0 w-full h-1 bg-brand-light -z-10"></div>
+
+                <div class="w-1/5 text-center px-2">
+                    <div
+                        class="w-16 h-16 bg-brand-gray rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6 border-4 border-white shadow-lg">
+                        01</div>
+                    <h3 class="text-xl font-bold text-brand-black mb-2">인지/검색</h3>
+                    <div class="bg-brand-bg p-4 rounded-lg text-sm text-gray-600">
+                        <p class="font-bold text-brand-dark mb-1">Pain Point</p>
+                        정보 부족, 리뷰 적음
+                    </div>
+                </div>
+                <div class="w-1/5 text-center px-2">
+                    <div
+                        class="w-16 h-16 bg-brand-main rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6 border-4 border-white shadow-lg">
+                        02</div>
+                    <h3 class="text-xl font-bold text-brand-black mb-2">방문/초반</h3>
+                    <div class="bg-brand-light p-4 rounded-lg text-sm text-gray-600">
+                        <p class="font-bold text-brand-main mb-1">Satisfied</p>
+                        기대감, 높은 만족도
+                    </div>
+                </div>
+                <div class="w-1/5 text-center px-2">
+                    <div
+                        class="w-16 h-16 bg-brand-black rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6 border-4 border-white shadow-lg">
+                        03</div>
+                    <h3 class="text-xl font-bold text-brand-black mb-2">관람 중반</h3>
+                    <div class="bg-brand-bg p-4 rounded-lg text-sm text-gray-600">
+                        <p class="font-bold text-brand-black mb-1">Pain Point</p>
+                        피로감 증가, 지루함
+                    </div>
+                </div>
+                <div class="w-1/5 text-center px-2">
+                    <div
+                        class="w-16 h-16 bg-brand-black rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6 border-4 border-white shadow-lg">
+                        04</div>
+                    <h3 class="text-xl font-bold text-brand-black mb-2">종료</h3>
+                    <div class="bg-brand-bg p-4 rounded-lg text-sm text-gray-600">
+                        <p class="font-bold text-brand-black mb-1">Pain Point</p>
+                        편의시설(카페) 부재
+                    </div>
+                </div>
+            </div>
+            <div class="mt-auto text-center">
+                <p class="text-2xl font-bold text-brand-dark">🎯 개선 목표: 각 단계의 Pain Point를 해결하여 전체 여정 만족도 극대화</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 14: Part 3 Cover -->
+    <div class="slide-number">슬라이드 14</div>
+    <div class="slide-container">
+        <div
+            class="slide w-full h-full bg-brand-black text-white flex flex-col justify-center items-center text-center relative overflow-hidden">
+            <div
+                class="absolute right-0 bottom-0 text-[20rem] text-brand-gray opacity-10 font-bold leading-none -mb-20 -mr-20">
+                03</div>
+            <p class="text-2xl tracking-[0.5em] text-brand-main mb-4">PART 03</p>
+            <h1 class="nanum-square-like text-7xl font-bold z-10">4P 마케팅<br>전략</h1>
+            <div class="grid grid-cols-4 gap-8 mt-16 w-3/4 max-w-4xl text-brand-gray">
+                <div class="border border-brand-gray/30 p-4 rounded">Product</div>
+                <div class="border border-brand-gray/30 p-4 rounded">Price</div>
+                <div class="border border-brand-gray/30 p-4 rounded">Promotion</div>
+                <div class="border border-brand-gray/30 p-4 rounded">Place</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 15: Product Problem -->
+    <div class="slide-number">슬라이드 15</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                1️⃣ PRODUCT: 전시 경험 개선
+            </h1>
+            <div class="flex-grow bg-brand-bg p-12 rounded-xl border-l-8 border-brand-black">
+                <h2 class="text-3xl font-bold text-brand-black mb-8">❌ 문제 진단</h2>
+                <div class="space-y-8 text-2xl">
+                    <div class="flex items-start">
+                        <i class="fas fa-exclamation-circle text-brand-black mt-1 mr-4"></i>
+                        <div>
+                            <strong>전시관 간 동선 비효율</strong>
+                            <p class="text-gray-500 text-lg mt-1">일방향 강제 동선으로 인한 피로감 누적</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-exclamation-circle text-brand-black mt-1 mr-4"></i>
+                        <div>
+                            <strong>후반부 몰입도 저하</strong>
+                            <p class="text-gray-500 text-lg mt-1">1전시실(67.8%) 대비 2전시실(53.1%) 만족도 급락</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-exclamation-circle text-brand-black mt-1 mr-4"></i>
+                        <div>
+                            <strong>휴식 공간 절대 부족</strong>
+                            <p class="text-gray-500 text-lg mt-1">만족도 86.0점 (3년 연속 최저)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 16: Solution A (Museum Hanmi) -->
+    <div class="slide-number">슬라이드 16</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                Solution A: 전시 동선 재설계
+            </h1>
+            <div class="flex gap-12 h-full">
+                <div class="w-1/2 space-y-8">
+                    <h2 class="text-2xl font-bold text-brand-black border-b pb-2">🏛️ 벤치마킹: 뮤지엄한미 삼청</h2>
+                    <ul class="space-y-4 text-lg text-gray-700">
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-main mt-1 mr-3"></i><span><strong>순환형 동선:</strong> '물의
+                                정원' 중심 3차원 구조</span></li>
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-main mt-1 mr-3"></i><span><strong>선택권 부여:</strong> 관람객이
+                                선택 가능한 복수 경로</span></li>
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-main mt-1 mr-3"></i><span><strong>성과:</strong> 관람 집중도 향상
+                                및 피로도 감소</span></li>
+                    </ul>
+                </div>
+                <div class="w-1/2 bg-brand-bg rounded-xl p-8 flex flex-col items-center justify-center relative">
+                    <div class="absolute top-4 left-4 text-brand-gray text-sm">CONCEPT MAP</div>
+                    <div
+                        class="w-32 h-32 bg-brand-dark rounded-full flex items-center justify-center text-white font-bold shadow-xl z-10 mb-8">
+                        HUB</div>
+                    <div class="flex justify-between w-full px-4">
+                        <div class="bg-white p-4 rounded shadow text-center w-24 text-sm border-t-4 border-brand-main">
+                            Route A</div>
+                        <div class="bg-white p-4 rounded shadow text-center w-24 text-sm border-t-4 border-brand-main">
+                            Route B</div>
+                        <div class="bg-white p-4 rounded shadow text-center w-24 text-sm border-t-4 border-brand-main">
+                            Route C</div>
+                    </div>
+                    <div class="absolute top-1/2 left-1/2 w-full h-16 -translate-x-1/2 -z-0">
+                        <div class="w-1 h-16 bg-brand-gray/50 mx-auto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 17: Application -->
+    <div class="slide-number">슬라이드 17</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 text-center">낙동강생물자원관 적용 방안</h1>
+            <div class="flex items-center justify-center gap-8 h-full">
+                <div class="w-1/3 bg-brand-light p-8 rounded-xl text-center opacity-70">
+                    <h3 class="text-2xl font-bold text-gray-500 mb-6">Before</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded border border-gray-300">1전시실</div>
+                        <div class="text-gray-400">↓</div>
+                        <div class="bg-white p-4 rounded border border-gray-300">2전시실</div>
+                        <div class="text-gray-400">↓</div>
+                        <div class="bg-white p-4 rounded border border-gray-300">미생물관</div>
+                    </div>
+                    <p class="mt-6 text-brand-black font-bold text-sm">일방향 강제 동선</p>
+                </div>
+
+                <i class="fas fa-arrow-right text-4xl text-brand-main"></i>
+
+                <div class="w-1/3 bg-brand-dark p-8 rounded-xl text-center text-white shadow-2xl transform scale-105">
+                    <h3 class="text-2xl font-bold text-brand-main mb-6">After</h3>
+                    <div class="mb-6">
+                        <div class="bg-brand-main text-white p-4 rounded-lg font-bold mb-4">중심 허브</div>
+                        <div class="grid grid-cols-2 gap-2 text-sm text-brand-dark">
+                            <div class="bg-white p-2 rounded">물 생태</div>
+                            <div class="bg-white p-2 rounded">육상 생태</div>
+                            <div class="bg-white p-2 rounded">어린이</div>
+                            <div class="bg-white p-2 rounded">속성 코스</div>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-brand-gray font-bold text-sm">선택 가능한 테마별 루트</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 18: Solution B (Rest Zone) -->
+    <div class="slide-number">슬라이드 18</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                Solution B: "피로도 해소 존" 전략 배치
+            </h1>
+            <div class="flex-grow flex flex-col items-center">
+                <div class="w-full max-w-4xl p-8 bg-brand-bg rounded-xl border-2 border-dashed border-brand-gray">
+                    <h2 class="text-2xl font-bold text-center text-brand-black mb-6">중간 휴식 존 레이아웃 (예시)</h2>
+                    <div class="grid grid-cols-2 grid-rows-2 gap-8 text-center">
+                        <div class="bg-white p-6 rounded-lg shadow"><i
+                                class="fas fa-couch text-4xl text-brand-main mb-2"></i>
+                            <p class="text-xl font-bold">벤치/카페 공간</p>
+                            <p class="text-gray-500 text-sm">체력 회복</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow"><i
+                                class="fas fa-camera-retro text-4xl text-brand-main mb-2"></i>
+                            <p class="text-xl font-bold">AR 포토존</p>
+                            <p class="text-gray-500 text-sm">SNS 공유 유도</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow"><i
+                                class="fas fa-gamepad text-4xl text-brand-main mb-2"></i>
+                            <p class="text-xl font-bold">터치스크린 퀴즈</p>
+                            <p class="text-gray-500 text-sm">재미+교육</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow"><i
+                                class="fas fa-film text-4xl text-brand-main mb-2"></i>
+                            <p class="text-xl font-bold">짧은 영상</p>
+                            <p class="text-gray-500 text-sm">기대감 조성</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 text-xl text-center space-y-2">
+                    <p><strong>위치:</strong> 1전시실과 2전시실 사이 (피로도 Peak 지점)</p>
+                    <p><strong>기대 효과:</strong> <span class="font-bold text-brand-main">휴식공간 만족도 86.0점 → 92점</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 19: Solution C (TeamLab) -->
+    <div class="slide-number">슬라이드 19</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 grid grid-cols-2 gap-12">
+            <div class="flex flex-col">
+                <h1 class="nanum-square-like text-4xl text-brand-dark">Solution C: 인터랙티브 콘텐츠</h1>
+                <h2 class="nanum-square-like text-2xl text-gray-600 mt-4">🎨 벤치마킹: 팀랩(teamLab)</h2>
+                <ul class="text-lg space-y-4 mt-8 list-disc list-inside text-gray-700">
+                    <li><strong>인터랙티브 미디어 아트의 원조</strong></li>
+                    <li>관람객의 움직임에 실시간으로 반응</li>
+                    <li>예술과 사람의 경계를 허무는 혁신적 경험</li>
+                    <li>전 세계적 인기, SNS 공유 폭발적 증가</li>
+                </ul>
+            </div>
+            <div class="grid grid-cols-2 grid-rows-2 gap-4">
+                <div class="bg-brand-black text-white rounded-lg p-4 flex flex-col justify-end h-40">
+                    <p class="font-bold">반응형 프로젝션</p>
+                </div>
+                <div class="bg-brand-main text-white rounded-lg p-4 flex flex-col justify-end h-40">
+                    <p class="font-bold">몰입형 체험</p>
+                </div>
+                <div class="bg-brand-dark text-white rounded-lg p-4 col-span-2 flex flex-col justify-end h-40">
+                    <p class="font-bold">디지털 생물 상호작용</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 20: Interactive Application -->
+    <div class="slide-number">슬라이드 20</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 text-center">💡 인터랙티브 콘텐츠 적용 방안</h1>
+            <div class="flex-grow space-y-6">
+                <div class="grid grid-cols-10 gap-4 p-6 bg-brand-bg rounded-lg items-center">
+                    <div class="col-span-2 font-bold text-xl">미생물전시실</div>
+                    <div class="col-span-3 text-gray-600">XR 체험 (기존)</div>
+                    <div class="col-span-1 text-center text-2xl text-brand-main"><i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="col-span-4 font-bold text-brand-dark">AR 미생물 관찰 앱 고도화<br><span
+                            class="text-sm font-normal text-gray-500">이용률 60% 목표</span></div>
+                </div>
+                <div class="grid grid-cols-10 gap-4 p-6 bg-brand-bg rounded-lg items-center">
+                    <div class="col-span-2 font-bold text-xl">2·3전시실</div>
+                    <div class="col-span-3 text-gray-600">표본 중심 전시</div>
+                    <div class="col-span-1 text-center text-2xl text-brand-main"><i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="col-span-4 font-bold text-brand-dark">동물 움직임 센서 인터랙션<br><span
+                            class="text-sm font-normal text-gray-500">바닥/벽면 프로젝션 맵핑</span></div>
+                </div>
+                <div class="grid grid-cols-10 gap-4 p-6 bg-brand-bg rounded-lg items-center">
+                    <div class="col-span-2 font-bold text-xl">4D 상영관</div>
+                    <div class="col-span-3 text-gray-600">콘텐츠 부족</div>
+                    <div class="col-span-1 text-center text-2xl text-brand-main"><i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="col-span-4 font-bold text-brand-dark">6K LED 영상 콘텐츠 다양화<br><span
+                            class="text-sm font-normal text-brand-main">2024.11 개선 완료 적극 활용</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 21: Price -->
+    <div class="slide-number">슬라이드 21</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                2️⃣ PRICE: 가격 전략
+            </h1>
+            <div class="grid grid-cols-2 gap-12">
+                <div class="p-8 bg-brand-light border-l-8 border-brand-main rounded-r-lg">
+                    <h2 class="text-2xl font-bold text-brand-main mb-4">✅ 현황: 강점 유지</h2>
+                    <ul class="space-y-3 list-disc list-inside text-lg">
+                        <li>공공기관으로서 합리적 가격 책정</li>
+                        <li>무료 또는 저렴한 관람료</li>
+                        <li>가격 관련 불만 거의 없음</li>
+                    </ul>
+                </div>
+                <div class="p-8 bg-brand-bg border-l-8 border-brand-dark rounded-r-lg">
+                    <h2 class="text-2xl font-bold text-brand-dark mb-4">💡 전략: 현재 유지 + α</h2>
+                    <ul class="space-y-3 list-disc list-inside text-lg">
+                        <li>현재 가격 정책 유지</li>
+                        <li><strong>추가 수익 모델 검토:</strong>
+                            <ul class="pl-6 mt-2 space-y-1 text-gray-600 text-base">
+                                <li>- 특별 체험 프로그램 유료화</li>
+                                <li>- 굿즈 판매 확대</li>
+                                <li>- 기업 협찬 유치</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center mt-16 text-xl bg-brand-light p-4 rounded text-brand-black">"가격 경쟁력은 충분하므로, <span
+                    class="font-bold">PROMOTION과 PLACE에 자원 집중</span>"</p>
+        </div>
+    </div>
+
+    <!-- Slide 22: Promotion Cover -->
+    <div class="slide-number">슬라이드 22</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                3️⃣ PROMOTION: 인플루언서 협업 전략 ⭐
+            </h1>
+            <div class="flex-grow flex flex-col justify-center">
+                <div class="bg-brand-bg border-l-8 border-brand-black p-10 rounded-r-xl mb-8">
+                    <h2 class="text-2xl font-bold text-brand-black mb-4">❌ 문제 진단</h2>
+                    <ul class="space-y-4 text-xl text-gray-700">
+                        <li>• 디지털 홍보 절대 부족 (SNS 18.4%)</li>
+                        <li>• 지역 인지도 매우 낮음 (상주 6.4%)</li>
+                        <li>• 느리고 제한적인 "입소문" 의존</li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-arrow-down text-4xl text-brand-gray mb-4"></i>
+                    <h2 class="text-3xl font-bold text-brand-main">"타겟 맞춤형 디지털 바이럴 마케팅 필수"</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 23: Success Case 1 -->
+    <div class="slide-number">슬라이드 23</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 grid grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-brand-main font-bold tracking-widest text-sm">BENCHMARKING 01</span>
+                <h1 class="nanum-square-like text-5xl text-brand-black mt-2 mb-8">충주시 '충주맨'</h1>
+                <div class="space-y-6 text-lg">
+                    <div>
+                        <strong class="block text-brand-dark mb-1">STRATEGY</strong>
+                        <p class="text-gray-600">공무원 직접 출연, B급 감성, 밈(Meme) 활용</p>
+                    </div>
+                    <div>
+                        <strong class="block text-brand-dark mb-1">RESULT</strong>
+                        <p class="text-gray-600">지자체 유튜브 1위 (77만), 인지도 급상승</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-brand-bg p-8 rounded-2xl relative">
+                <div
+                    class="absolute -top-4 -right-4 w-20 h-20 bg-brand-black rounded-full flex items-center justify-center text-white font-bold z-10">
+                    Top 1
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-40 bg-gray-200 flex items-center justify-center text-gray-400">Youtube Thumbnail</div>
+                    <div class="p-4">
+                        <div class="h-4 w-3/4 bg-gray-200 rounded mb-2"></div>
+                        <div class="h-4 w-1/2 bg-gray-200 rounded"></div>
+                    </div>
+                </div>
+                <p class="text-center mt-6 font-bold text-brand-dark">"딱딱한 공공기관 이미지를 탈피한 혁신"</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 24: Success Case 2 -->
+    <div class="slide-number">슬라이드 24</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                BENCHMARKING 02: 선관위 × 너덜트
+            </h1>
+            <div class="flex-grow flex flex-col items-center justify-center">
+                <div class="text-center mb-8">
+                    <p class="text-xl text-gray-600">2022년 제20대 대통령선거 (타겟: 2030세대)</p>
+                    <h2 class="text-3xl font-bold text-brand-black mt-2">어려운 '정책선거'를 친숙한 '휴대폰 구매'에 비유</h2>
+                </div>
+                <div class="flex items-center justify-around w-full max-w-4xl bg-brand-bg p-8 rounded-xl">
+                    <div class="text-center">
+                        <i class="fas fa-file-signature text-6xl text-gray-400"></i>
+                        <p class="font-bold mt-4">정책선거 공약</p>
+                    </div>
+                    <i class="fas fa-exchange-alt text-4xl text-brand-main"></i>
+                    <div class="text-center">
+                        <i class="fas fa-mobile-alt text-6xl text-brand-dark"></i>
+                        <p class="font-bold mt-4">휴대폰 구매</p>
+                    </div>
+                </div>
+                <div class="mt-8 text-center">
+                    <p class="text-xl font-bold text-brand-main">성과: 2030세대의 높은 공감대 형성 및 정책선거 중요성 전달</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 25: Influencer Types -->
+    <div class="slide-number">슬라이드 25</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                💡 협업 대상 인플루언서 유형
+            </h1>
+            <div class="grid grid-cols-2 gap-8 h-full">
+                <div class="bg-brand-bg p-8 rounded-xl border-t-4 border-brand-accent">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-child text-4xl text-brand-accent mr-4"></i>
+                        <h3 class="text-2xl font-bold text-brand-black">유튜브 키즈 크리에이터</h3>
+                    </div>
+                    <ul class="space-y-2 text-lg text-gray-600">
+                        <li>• 구독자: 10만 ~ 50만</li>
+                        <li>• 타겟: <strong>어린이 (직접 시청)</strong></li>
+                        <li>• 역할: 흥미 유발, 방문 조르기</li>
+                    </ul>
+                </div>
+                <div class="bg-brand-bg p-8 rounded-xl border-t-4 border-brand-main">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-baby-carriage text-4xl text-brand-main mr-4"></i>
+                        <h3 class="text-2xl font-bold text-brand-black">인스타 육아 인플루언서</h3>
+                    </div>
+                    <ul class="space-y-2 text-lg text-gray-600">
+                        <li>• 팔로워: 3만 ~ 10만</li>
+                        <li>• 타겟: <strong>학부모 (의사결정권자)</strong></li>
+                        <li>• 역할: 신뢰성 정보, 감성 리뷰</li>
+                    </ul>
+                </div>
+                <div class="bg-brand-bg p-8 rounded-xl border-t-4 border-brand-dark">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-chalkboard-teacher text-4xl text-brand-dark mr-4"></i>
+                        <h3 class="text-2xl font-bold text-brand-black">교육 전문 인플루언서</h3>
+                    </div>
+                    <ul class="space-y-2 text-lg text-gray-600">
+                        <li>• 구독자: 5만 ~ 20만</li>
+                        <li>• 타겟: <strong>교사, 교육열 높은 부모</strong></li>
+                        <li>• 역할: 학습 가치 검증</li>
+                    </ul>
+                </div>
+                <div class="bg-brand-bg p-8 rounded-xl border-t-4 border-brand-gray">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-map-marker-alt text-4xl text-brand-gray mr-4"></i>
+                        <h3 class="text-2xl font-bold text-brand-black">지역 마이크로 인플루언서</h3>
+                    </div>
+                    <ul class="space-y-2 text-lg text-gray-600">
+                        <li>• 팔로워: 1만 ~ 5만</li>
+                        <li>• 타겟: <strong>대구/경북 거주민</strong></li>
+                        <li>• 역할: 실질적 방문 유도</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 26: Campaign 1 -->
+    <div class="slide-number">슬라이드 26</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                📋 캠페인 1: 생물탐험대 챌린지
+            </h1>
+            <div class="flex gap-12 h-full">
+                <div class="w-1/3 bg-brand-light p-8 rounded-xl flex flex-col justify-center text-center">
+                    <div
+                        class="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow text-4xl">
+                        🎬</div>
+                    <h3 class="text-xl font-bold text-brand-black mb-2">협업 대상</h3>
+                    <p class="text-brand-main font-bold">유튜브 키즈 크리에이터</p>
+                    <p class="text-gray-500 text-sm">(3~5명)</p>
+                </div>
+                <div class="w-2/3 space-y-8">
+                    <div class="bg-brand-bg p-6 rounded-lg border-l-4 border-brand-accent">
+                        <h3 class="text-xl font-bold text-brand-black mb-2">콘텐츠 미션</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>"30분 안에 낙동강 생물 10종 찾기"</li>
+                            <li>"가족 생물 퀴즈 배틀"</li>
+                        </ul>
+                    </div>
+                    <div class="bg-brand-bg p-6 rounded-lg border-l-4 border-brand-main">
+                        <h3 class="text-xl font-bold text-brand-black mb-2">실행 프로세스</h3>
+                        <div class="flex items-center text-sm text-gray-600">
+                            <span>인플루언서 초청</span>
+                            <i class="fas fa-arrow-right mx-2 text-brand-gray"></i>
+                            <span>미션 영상 제작</span>
+                            <i class="fas fa-arrow-right mx-2 text-brand-gray"></i>
+                            <span>SNS 해시태그 확산</span>
+                        </div>
+                        <p class="mt-2 font-bold text-brand-dark">#낙동강생물탐험대</p>
+                    </div>
+                    <div class="flex justify-between items-center bg-brand-dark text-white p-6 rounded-lg">
+                        <div>
+                            <p class="text-sm opacity-80">예상 조회수</p>
+                            <p class="text-2xl font-bold">50만+</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm opacity-80">예산</p>
+                            <p class="text-2xl font-bold">700만원</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 27: Campaign 2 -->
+    <div class="slide-number">슬라이드 27</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                📋 캠페인 2: 생물 관찰 일기
+            </h1>
+            <div class="flex gap-12 h-full">
+                <div class="w-1/3 bg-brand-light p-8 rounded-xl flex flex-col justify-center text-center">
+                    <div
+                        class="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow text-4xl">
+                        📝</div>
+                    <h3 class="text-xl font-bold text-brand-black mb-2">협업 대상</h3>
+                    <p class="text-brand-main font-bold">육아 인플루언서</p>
+                    <p class="text-gray-500 text-sm">(5~10명)</p>
+                </div>
+                <div class="w-2/3 space-y-8">
+                    <div class="bg-brand-bg p-6 rounded-lg border-l-4 border-brand-accent">
+                        <h3 class="text-xl font-bold text-brand-black mb-2">콘텐츠 컨셉</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>아이와 함께 전시 관람 후 그림일기 작성</li>
+                            <li>자원관의 <strong>'교육적 가치'</strong> 강조</li>
+                        </ul>
+                    </div>
+                    <div class="bg-brand-bg p-6 rounded-lg border-l-4 border-brand-main">
+                        <h3 class="text-xl font-bold text-brand-black mb-2">실행 프로세스</h3>
+                        <div class="flex items-center text-sm text-gray-600">
+                            <span>관찰 일기 키트 제공</span>
+                            <i class="fas fa-arrow-right mx-2 text-brand-gray"></i>
+                            <span>일기 작성 & 인증</span>
+                            <i class="fas fa-arrow-right mx-2 text-brand-gray"></i>
+                            <span>SNS 업로드</span>
+                        </div>
+                        <p class="mt-2 font-bold text-brand-dark">#낙동강생물관찰일기</p>
+                    </div>
+                    <div class="flex justify-between items-center bg-brand-dark text-white p-6 rounded-lg">
+                        <div>
+                            <p class="text-sm opacity-80">기대 효과</p>
+                            <p class="text-xl font-bold">학부모 신뢰도 확보</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm opacity-80">예산</p>
+                            <p class="text-2xl font-bold">1,000만원</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 28: KPI -->
+    <div class="slide-number">슬라이드 28</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                📊 성과 측정 지표 (KPI)
+            </h1>
+            <div class="flex-grow">
+                <table class="w-full text-center border-collapse">
+                    <thead>
+                        <tr class="bg-brand-dark text-white text-xl">
+                            <th class="p-4 rounded-tl-lg">지표</th>
+                            <th class="p-4">현재</th>
+                            <th class="p-4">목표 (6개월)</th>
+                            <th class="p-4 rounded-tr-lg">증가율</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-lg">
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 font-bold text-brand-black">콘텐츠 조회수</td>
+                            <td class="p-4 text-gray-500">-</td>
+                            <td class="p-4 font-bold">10만+ / 영상</td>
+                            <td class="p-4 text-brand-main">-</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 bg-brand-bg">
+                            <td class="p-4 font-bold text-brand-black">참여율</td>
+                            <td class="p-4 text-gray-500">-</td>
+                            <td class="p-4 font-bold">5% +</td>
+                            <td class="p-4 text-brand-main">-</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="p-4 font-bold text-brand-black">SNS 방문 경로</td>
+                            <td class="p-4 text-gray-500">18.4%</td>
+                            <td class="p-4 font-bold">35%</td>
+                            <td class="p-4 text-brand-accent font-bold">▲ 90%</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 bg-brand-bg">
+                            <td class="p-4 font-bold text-brand-black">관람객 수</td>
+                            <td class="p-4 text-gray-500">134,991명</td>
+                            <td class="p-4 font-bold">162,000명</td>
+                            <td class="p-4 text-brand-accent font-bold">▲ 20%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="mt-8 flex gap-4">
+                    <div class="flex-1 bg-brand-light p-6 rounded-lg text-center">
+                        <h4 class="font-bold text-brand-dark mb-2">정성 지표 1</h4>
+                        <p class="text-gray-700">댓글 긍정 비율 <strong>70% 이상</strong></p>
+                    </div>
+                    <div class="flex-1 bg-brand-light p-6 rounded-lg text-center">
+                        <h4 class="font-bold text-brand-dark mb-2">정성 지표 2</h4>
+                        <p class="text-gray-700">재방문 의향 <strong>95점 이상</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 29: PLACE -->
+    <div class="slide-number">슬라이드 29</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                4️⃣ PLACE: 접근성 강화
+            </h1>
+            <div class="grid grid-cols-2 gap-12 h-full">
+                <div class="bg-brand-bg p-8 rounded-xl border-t-4 border-brand-main flex flex-col">
+                    <h3 class="text-2xl font-bold text-brand-black mb-6 flex items-center"><i
+                            class="fas fa-globe text-brand-main mr-3"></i> 온라인 접점 강화</h3>
+                    <ul class="space-y-6 text-xl text-gray-700 flex-grow">
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-main mt-1 mr-3"></i><span><strong>네이버·카카오맵
+                                    최적화</strong><br><span class="text-sm text-gray-500">리뷰 이벤트, 최신 정보
+                                    업데이트</span></span></li>
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-main mt-1 mr-3"></i><span><strong>가상 투어 (VR)
+                                    제공</strong><br><span class="text-sm text-gray-500">방문 전 기대감 조성</span></span>
+                        </li>
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-main mt-1 mr-3"></i><span><strong>예약 시스템 UX
+                                    개선</strong><br><span class="text-sm text-gray-500">모바일 최적화</span></span></li>
+                    </ul>
+                </div>
+                <div class="bg-brand-bg p-8 rounded-xl border-t-4 border-brand-dark flex flex-col">
+                    <h3 class="text-2xl font-bold text-brand-black mb-6 flex items-center"><i
+                            class="fas fa-bus text-brand-dark mr-3"></i> 교통 편의성 홍보</h3>
+                    <ul class="space-y-6 text-xl text-gray-700 flex-grow">
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-dark mt-1 mr-3"></i><span><strong>대중교통 연계 안내
+                                    강화</strong><br><span class="text-sm text-gray-500">상주역/터미널 ↔ 자원관</span></span>
+                        </li>
+                        <li class="flex items-start"><i
+                                class="fas fa-check text-brand-dark mt-1 mr-3"></i><span><strong>주말 셔틀버스 운영
+                                    (시범)</strong><br><span class="text-sm text-gray-500">주요 거점 순환</span></span></li>
+                    </ul>
+                    <div class="mt-auto bg-white p-4 rounded text-center border border-brand-gray">
+                        <span class="text-brand-gray text-sm">소요 예산</span>
+                        <p class="text-2xl font-bold text-brand-black">3,500만원</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 30: Part 4 Cover -->
+    <div class="slide-number">슬라이드 30</div>
+    <div class="slide-container">
+        <div
+            class="slide w-full h-full bg-brand-accent text-white flex flex-col justify-center items-center text-center relative overflow-hidden">
+            <div
+                class="absolute right-0 bottom-0 text-[20rem] text-brand-point opacity-20 font-bold leading-none -mb-20 -mr-20">
+                04</div>
+            <p class="text-2xl tracking-[0.5em] text-white mb-4">PART 04</p>
+            <h1 class="nanum-square-like text-7xl font-bold z-10">리스크 관리 및<br>대응 방안</h1>
+            <div class="text-6xl mt-12 animate-pulse"><i class="fas fa-exclamation-triangle"></i></div>
+        </div>
+    </div>
+
+    <!-- Slide 31: Risk Matrix -->
+    <div class="slide-number">슬라이드 31</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-8 flex items-center">
+                <span class="w-2 h-12 bg-brand-point mr-4"></span>
+                📊 리스크 매트릭스 (Risk Matrix)
+            </h1>
+            <div class="flex-grow relative border-l-4 border-b-4 border-gray-300 m-8">
+                <!-- Labels -->
+                <div class="absolute -left-12 top-1/2 -translate-y-1/2 -rotate-90 text-gray-500 font-bold">영향도
+                    (Impact)</div>
+                <div class="absolute bottom-[-3rem] left-1/2 -translate-x-1/2 text-gray-500 font-bold">발생 가능성
+                    (Probability)</div>
+
+                <!-- Grid Lines -->
+                <div class="absolute top-1/2 left-0 w-full h-0.5 bg-gray-200 border-t border-dashed border-gray-400">
+                </div>
+                <div class="absolute top-0 left-1/2 h-full w-0.5 bg-gray-200 border-l border-dashed border-gray-400">
+                </div>
+
+                <!-- Items -->
+                <div class="absolute top-[20%] left-[20%] flex flex-col items-center">
+                    <div
+                        class="w-24 h-24 rounded-full bg-brand-point text-white flex items-center justify-center font-bold text-center p-2 shadow-lg z-10">
+                        예산<br>부족</div>
+                </div>
+                <div class="absolute top-[20%] right-[20%] flex flex-col items-center">
+                    <div
+                        class="w-24 h-24 rounded-full bg-brand-point text-white flex items-center justify-center font-bold text-center p-2 shadow-lg z-10">
+                        성과<br>미달</div>
+                </div>
+                <div class="absolute bottom-[20%] left-[20%] flex flex-col items-center">
+                    <div
+                        class="w-24 h-24 rounded-full bg-brand-accent text-white flex items-center justify-center font-bold text-center p-2 shadow-lg z-10">
+                        협업<br>실패</div>
+                </div>
+                <div class="absolute bottom-[20%] right-[20%] flex flex-col items-center">
+                    <div
+                        class="w-24 h-24 rounded-full bg-brand-main text-white flex items-center justify-center font-bold text-center p-2 shadow-lg z-10">
+                        관람객<br>급증</div>
+                </div>
+            </div>
+            <div class="flex justify-center gap-8 mt-4">
+                <div class="flex items-center">
+                    <div class="w-4 h-4 bg-brand-point rounded-full mr-2"></div><span class="font-bold">최우선
+                        대응</span>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-4 h-4 bg-brand-accent rounded-full mr-2"></div><span class="font-bold">중요
+                        관리</span>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-4 h-4 bg-brand-main rounded-full mr-2"></div><span class="font-bold">관찰 필요</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 32: Risk Response -->
+    <div class="slide-number">슬라이드 32</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-point mr-4"></span>
+                🚨 주요 리스크 대응 방안
+            </h1>
+            <div class="space-y-8">
+                <div class="bg-brand-bg p-6 rounded-xl border-l-8 border-brand-point flex items-center">
+                    <div class="w-1/4 font-bold text-xl text-brand-black">리스크 1: 예산 부족</div>
+                    <div class="text-2xl text-gray-400 mx-4"><i class="fas fa-arrow-right"></i></div>
+                    <div class="w-3/4">
+                        <p class="text-xl font-bold text-brand-dark">단계별 우선순위 실행, 협찬 유치</p>
+                        <p class="text-gray-600 mt-1">핵심 사업(인플루언서) 우선 배정, 지자체 매칭 펀드 활용</p>
+                    </div>
+                </div>
+                <div class="bg-brand-bg p-6 rounded-xl border-l-8 border-brand-accent flex items-center">
+                    <div class="w-1/4 font-bold text-xl text-brand-black">리스크 2: 협업 실패</div>
+                    <div class="text-2xl text-gray-400 mx-4"><i class="fas fa-arrow-right"></i></div>
+                    <div class="w-3/4">
+                        <p class="text-xl font-bold text-brand-dark">사전 검증 및 소규모 테스트</p>
+                        <p class="text-gray-600 mt-1">크리에이터 평판 조회, 단발성 계약 후 장기 전환 검토</p>
+                    </div>
+                </div>
+                <div class="bg-brand-bg p-6 rounded-xl border-l-8 border-brand-point flex items-center">
+                    <div class="w-1/4 font-bold text-xl text-brand-black">리스크 3: 성과 미달</div>
+                    <div class="text-2xl text-gray-400 mx-4"><i class="fas fa-arrow-right"></i></div>
+                    <div class="w-3/4">
+                        <p class="text-xl font-bold text-brand-dark">월별 모니터링 및 애자일(Agile) 전략 수정</p>
+                        <p class="text-gray-600 mt-1">성과 저조 채널 즉시 중단, 고효율 채널 예산 증액</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 33: Part 5 Cover -->
+    <div class="slide-number">슬라이드 33</div>
+    <div class="slide-container">
+        <div
+            class="slide w-full h-full bg-brand-main text-white flex flex-col justify-center items-center text-center relative overflow-hidden">
+            <div
+                class="absolute right-0 bottom-0 text-[20rem] text-brand-sub opacity-20 font-bold leading-none -mb-20 -mr-20">
+                05</div>
+            <p class="text-2xl tracking-[0.5em] text-white mb-4">PART 05</p>
+            <h1 class="nanum-square-like text-7xl font-bold z-10">실행 계획 및<br>기대 효과</h1>
+            <div class="text-6xl mt-12 animate-bounce"><i class="fas fa-tasks"></i></div>
+        </div>
+    </div>
+
+    <!-- Slide 34: Roadmap -->
+    <div class="slide-number">슬라이드 34</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                📅 실행 로드맵 (Action Plan)
+            </h1>
+            <div class="flex-grow flex flex-col justify-center relative">
+                <!-- Timeline Line -->
+                <div class="absolute top-1/2 left-0 w-full h-1 bg-gray-300 -translate-y-1/2 z-0"></div>
+
+                <div class="grid grid-cols-3 gap-8 z-10">
+                    <!-- Short Term -->
+                    <div class="bg-white p-6 rounded-xl border-t-8 border-brand-main shadow-lg flex flex-col h-full">
+                        <div class="text-center mb-6">
+                            <span class="bg-brand-main text-white px-4 py-1 rounded-full text-sm font-bold">단기
+                                (3개월)</span>
+                            <h3 class="text-2xl font-bold text-brand-black mt-4">기반 구축 & 붐업</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-700 flex-grow">
+                            <li class="flex items-start"><i class="fas fa-check text-brand-main mt-1 mr-2"></i>
+                                인플루언서 체험단 5명</li>
+                            <li class="flex items-start"><i class="fas fa-check text-brand-main mt-1 mr-2"></i> SNS
+                                채널 리뉴얼</li>
+                            <li class="flex items-start"><i class="fas fa-check text-brand-main mt-1 mr-2"></i> 휴식
+                                공간 설계 및 착공</li>
+                        </ul>
+                        <div class="mt-4 text-center text-gray-500 text-sm">예산: 3,000만원</div>
+                    </div>
+
+                    <!-- Mid Term -->
+                    <div
+                        class="bg-white p-6 rounded-xl border-t-8 border-brand-dark shadow-lg flex flex-col h-full transform -translate-y-8">
+                        <div class="text-center mb-6">
+                            <span class="bg-brand-dark text-white px-4 py-1 rounded-full text-sm font-bold">중기
+                                (6개월)</span>
+                            <h3 class="text-2xl font-bold text-brand-black mt-4">콘텐츠 확산 & 체험</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-700 flex-grow">
+                            <li class="flex items-start"><i class="fas fa-check text-brand-dark mt-1 mr-2"></i>
+                                AR/VR 콘텐츠 개발</li>
+                            <li class="flex items-start"><i class="fas fa-check text-brand-dark mt-1 mr-2"></i> 정기
+                                협업 인플루언서 운영</li>
+                            <li class="flex items-start"><i class="fas fa-check text-brand-dark mt-1 mr-2"></i> 팝업
+                                스토어 (여름방학)</li>
+                        </ul>
+                        <div class="mt-4 text-center text-gray-500 text-sm">예산: 1.3억원</div>
+                    </div>
+
+                    <!-- Long Term -->
+                    <div class="bg-white p-6 rounded-xl border-t-8 border-brand-accent shadow-lg flex flex-col h-full">
+                        <div class="text-center mb-6">
+                            <span class="bg-brand-accent text-white px-4 py-1 rounded-full text-sm font-bold">장기
+                                (1년)</span>
+                            <h3 class="text-2xl font-bold text-brand-black mt-4">브랜드 강화 & 정착</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-700 flex-grow">
+                            <li class="flex items-start"><i class="fas fa-check text-brand-accent mt-1 mr-2"></i> 관람
+                                동선 전면 재설계</li>
+                            <li class="flex items-start"><i class="fas fa-check text-brand-accent mt-1 mr-2"></i> 연간
+                                캠페인 정례화</li>
+                            <li class="flex items-start"><i class="fas fa-check text-brand-accent mt-1 mr-2"></i>
+                                셔틀버스 정식 운영</li>
+                        </ul>
+                        <div class="mt-4 text-center text-gray-500 text-sm">예산: 6.5억원</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 35: Expected Effects -->
+    <div class="slide-number">슬라이드 35</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                📊 기대 효과 (Expected Effects)
+            </h1>
+            <div class="flex gap-12 h-full">
+                <div class="w-1/2 bg-brand-bg p-8 rounded-xl border-t-4 border-brand-main">
+                    <h3 class="text-2xl font-bold text-brand-black mb-6 text-center">📈 정량적 효과</h3>
+                    <div class="space-y-8">
+                        <div class="flex justify-between items-end border-b border-gray-300 pb-4">
+                            <div>
+                                <p class="text-gray-600 text-sm">관람객 수</p>
+                                <p class="text-3xl font-bold text-brand-dark">162,000명</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-brand-accent font-bold text-xl">▲ 20%</span>
+                                <p class="text-gray-400 text-xs">vs 전년 (13.5만명)</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-end border-b border-gray-300 pb-4">
+                            <div>
+                                <p class="text-gray-600 text-sm">SNS 유입 경로</p>
+                                <p class="text-3xl font-bold text-brand-dark">35%</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-brand-accent font-bold text-xl">▲ 90%</span>
+                                <p class="text-gray-400 text-xs">vs 현재 (18.4%)</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-end">
+                            <div>
+                                <p class="text-gray-600 text-sm">휴식공간 만족도</p>
+                                <p class="text-3xl font-bold text-brand-dark">92점</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-brand-accent font-bold text-xl">▲ 7%</span>
+                                <p class="text-gray-400 text-xs">vs 현재 (86점)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2 bg-brand-bg p-8 rounded-xl border-t-4 border-brand-dark">
+                    <h3 class="text-2xl font-bold text-brand-black mb-6 text-center">💖 정성적 효과</h3>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h4 class="font-bold text-brand-main mb-2">이미지 개선</h4>
+                            <p class="text-gray-600">"딱딱한 공공기관" <i class="fas fa-arrow-right mx-2 text-gray-400"></i>
+                                <strong class="text-brand-black">"재미있는 가족 체험 공간"</strong></p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h4 class="font-bold text-brand-main mb-2">지역 경제 기여</h4>
+                            <p class="text-gray-600">관람객 체류 시간 증대로 인한 <strong class="text-brand-black">지역 소비
+                                    활성화</strong> (연간 약 13.5억원 추산)</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h4 class="font-bold text-brand-main mb-2">내부 역량 강화</h4>
+                            <p class="text-gray-600">데이터 기반 마케팅 도입으로 <strong class="text-brand-black">조직의 기획력 및 실행력
+                                    증대</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 36: Budget & ROI -->
+    <div class="slide-number">슬라이드 36</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-brand-dark mb-12 flex items-center">
+                <span class="w-2 h-12 bg-brand-main mr-4"></span>
+                💰 소요 예산 및 ROI 분석
+            </h1>
+            <div class="flex gap-12 h-full">
+                <div class="w-1/2">
+                    <h3 class="text-2xl font-bold text-brand-black mb-6">총 소요 예산: <span
+                            class="text-brand-accent">8.5억원</span></h3>
+                    <div class="w-full bg-gray-200 rounded-full h-8 mb-4 overflow-hidden flex">
+                        <div class="bg-brand-main h-full flex items-center justify-center text-white text-xs"
+                            style="width: 40%">시설 개선 (40%)</div>
+                        <div class="bg-brand-dark h-full flex items-center justify-center text-white text-xs"
+                            style="width: 30%">콘텐츠 (30%)</div>
+                        <div class="bg-brand-accent h-full flex items-center justify-center text-white text-xs"
+                            style="width: 20%">홍보 (20%)</div>
+                        <div class="bg-gray-400 h-full flex items-center justify-center text-white text-xs"
+                            style="width: 10%">기타 (10%)</div>
+                    </div>
+                    <ul class="space-y-4 mt-8 text-lg text-gray-700">
+                        <li class="flex justify-between border-b pb-2"><span>시설 개선 (휴식공간, 동선)</span> <span
+                                class="font-bold">3.4억원</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>콘텐츠 개발 (AR/VR, 팝업)</span> <span
+                                class="font-bold">2.55억원</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>홍보/마케팅 (인플루언서)</span> <span
+                                class="font-bold">1.7억원</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>운영비 및 예비비</span> <span
+                                class="font-bold">0.85억원</span></li>
+                    </ul>
+                </div>
+                <div class="w-1/2 bg-brand-light p-8 rounded-xl flex flex-col justify-center text-center">
+                    <h3 class="text-2xl font-bold text-brand-black mb-8">투자 대비 수익 (ROI)</h3>
+                    <div class="text-6xl font-bold text-brand-main mb-4">158%</div>
+                    <p class="text-gray-600 mb-8">예상 경제적 파급 효과: <strong class="text-brand-black">약 13.5억원</strong>
+                    </p>
+                    <div class="bg-white p-6 rounded-lg text-left text-sm text-gray-500">
+                        <p>* 산출 근거:</p>
+                        <p>- 관람객 증대분(2.7만명) x 1인당 평균 지출액(5만원)</p>
+                        <p>- 브랜드 가치 상승분 제외 (보수적 추계)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 37: Key Messages -->
+    <div class="slide-number">슬라이드 37</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-brand-dark text-white p-16 flex flex-col justify-center">
+            <h1 class="nanum-square-like text-5xl font-bold mb-16 text-center">핵심 메시지 (Key Messages)</h1>
+            <div class="space-y-8 max-w-4xl mx-auto">
+                <div class="flex items-center">
+                    <div
+                        class="w-16 h-16 rounded-full bg-brand-main flex items-center justify-center text-2xl font-bold mr-8">
+                        1</div>
+                    <div class="text-2xl">
+                        <strong class="text-brand-accent">"고객 중심"</strong>으로의 전환은 선택이 아닌 필수입니다.
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div
+                        class="w-16 h-16 rounded-full bg-brand-main flex items-center justify-center text-2xl font-bold mr-8">
+                        2</div>
+                    <div class="text-2xl">
+                        <strong class="text-brand-accent">"디지털 경험"</strong>과 <strong class="text-brand-accent">"오프라인
+                            휴식"</strong>의 조화가 핵심입니다.
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <div
+                        class="w-16 h-16 rounded-full bg-brand-main flex items-center justify-center text-2xl font-bold mr-8">
+                        3</div>
+                    <div class="text-2xl">
+                        낙동강생물자원관은 단순한 전시관을 넘어 <strong class="text-brand-accent">"복합 문화 공간"</strong>으로 거듭날 것입니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 38: Conclusion -->
+    <div class="slide-number">슬라이드 38</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-white p-16 flex flex-col justify-center items-center text-center relative">
+            <div
+                class="absolute inset-0 bg-[url('https://source.unsplash.com/random/1600x900/?nature,river')] bg-cover bg-center opacity-10">
+            </div>
+            <h1 class="nanum-square-like text-5xl font-bold text-brand-dark mb-8 z-10">"생물 다양성의 가치,<br>더 많은 사람에게, 더
+                즐겁게"</h1>
+            <p class="text-2xl text-gray-600 mb-12 z-10 max-w-3xl leading-relaxed">
+                우리의 변화는 관람객에게 잊지 못할 추억을 선물하고,<br>
+                지속 가능한 미래를 위한 소중한 첫걸음이 될 것입니다.
+            </p>
+            <div class="text-brand-main text-xl font-bold z-10">- 국립낙동강생물자원관 마케팅 전략 TF -</div>
+        </div>
+    </div>
+
+    <!-- Slide 39: Q&A -->
+    <div class="slide-number">슬라이드 39</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-brand-bg flex flex-col justify-center items-center text-center">
+            <div
+                class="w-32 h-32 bg-brand-main rounded-full flex items-center justify-center text-white text-6xl mb-8 shadow-lg">
+                <i class="fas fa-question"></i>
+            </div>
+            <h1 class="nanum-square-like text-6xl font-bold text-brand-dark mb-4">Q & A</h1>
+            <p class="text-2xl text-gray-600">질의 응답</p>
+        </div>
+    </div>
+
+    <!-- Slide 40: Thank You -->
+    <div class="slide-number">슬라이드 40</div>
+    <div class="slide-container">
+        <div class="slide w-full h-full bg-brand-dark text-white flex flex-col justify-center items-center text-center">
+            <h1 class="nanum-square-like text-7xl font-bold mb-8">감사합니다</h1>
+            <p class="text-2xl opacity-80 mb-12">Thank You</p>
+            <div class="flex items-center space-x-8 text-lg opacity-70">
+                <span><i class="fas fa-phone-alt mr-2"></i> 054-530-0700</span>
+                <span><i class="fas fa-envelope mr-2"></i> marketing@nnibr.re.kr</span>
+                <span><i class="fas fa-globe mr-2"></i> www.nnibr.re.kr</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

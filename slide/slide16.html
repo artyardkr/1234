@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 16: Solution A</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; }
+        .slide { width: 1280px; height: 720px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .nanum-gothic { font-family: 'Nanum Gothic', sans-serif; }
+        .nanum-square-like { font-family: 'Noto Sans KR', sans-serif; font-weight: 700; }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="slide bg-white p-16 grid grid-cols-2 gap-12">
+        <div class="flex flex-col">
+            <h1 class="nanum-square-like text-4xl text-gray-800">✅ 해결책 A: 전시 동선 재설계</h1>
+            <h2 class="nanum-square-like text-3xl text-gray-600 mt-4">🏛️ 벤치마킹: 뮤지엄한미 삼청</h2>
+            <ul class="nanum-gothic text-2xl space-y-4 mt-8 list-disc list-inside">
+                <li><strong class="font-bold">순환형 동선 설계:</strong> '물의 정원'을 중심으로 한 3차원 교직 구조</li>
+                <li><strong class="font-bold">매트릭스 동선:</strong> 관람객이 선택 가능한 복수 경로 제공</li>
+                <li><strong class="font-bold">성과:</strong> 관람객이 흐트러짐 없이 전시에 집중하며, 피로도 감소</li>
+            </ul>
+            <p class="nanum-gothic text-gray-400 mt-auto">건축가: 민현식 (기오헌 건축사사무소)<br>출처: 서울신문 2023.2.13</p>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-gray-50 rounded-lg p-8">
+            <h3 class="text-2xl font-bold text-center mb-4">순환형 동선 개념도</h3>
+            <div class="text-center font-bold text-xl p-4 bg-teal-500 text-white rounded-lg">물의 정원 (중심 허브)</div>
+            <div class="flex justify-around w-full text-5xl text-teal-500 my-4">
+                <i class="fas fa-arrow-down"></i>
+                <i class="fas fa-arrow-down"></i>
+                <i class="fas fa-arrow-down"></i>
+            </div>
+            <div class="grid grid-cols-3 gap-4 w-full text-center">
+                <div class="p-4 bg-teal-100 rounded-lg"><p class="font-bold">경로 1</p><p class="text-sm">테마 A</p></div>
+                <div class="p-4 bg-teal-100 rounded-lg"><p class="font-bold">경로 2</p><p class="text-sm">테마 B</p></div>
+                <div class="p-4 bg-teal-100 rounded-lg"><p class="font-bold">경로 3</p><p class="text-sm">테마 C</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

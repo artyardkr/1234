@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 11: Customer Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; }
+        .slide { width: 1280px; height: 720px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .nanum-gothic { font-family: 'Nanum Gothic', sans-serif; }
+        .nanum-square-like { font-family: 'Noto Sans KR', sans-serif; font-weight: 700; }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="slide bg-white p-16 flex flex-col">
+        <h1 class="nanum-square-like text-5xl text-gray-800">👥 주요 고객층 프로필</h1>
+        <div class="flex-grow mt-10 grid grid-cols-2 gap-12">
+            <div class="nanum-gothic">
+                <h2 class="text-3xl font-bold text-gray-700 mb-4">관람 대상별 현황 (2024년)</h2>
+                <ul class="text-2xl space-y-3">
+                    <li>성인: 56.7%</li>
+                    <li class="font-bold text-teal-600 bg-teal-50 p-2 rounded">⭐ 어린이: 40.3%</li>
+                    <li>청소년: 3.0%</li>
+                </ul>
+                <h2 class="text-3xl font-bold text-gray-700 mt-8 mb-4">동반 유형</h2>
+                <ul class="text-2xl space-y-3">
+                    <li>• 가족 동반: 61.2%</li>
+                    <li>• 동반 초등학생: 46.1%</li>
+                </ul>
+            </div>
+            <div class="bg-gray-50 rounded-lg shadow-lg p-8 flex flex-col justify-center">
+                <h2 class="text-3xl font-bold text-center text-gray-700 mb-4">🎯 타겟 페르소나</h2>
+                <div class="text-center">
+                    <img src="https://i.imgur.com/L6p8Q4X.png" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-teal-400" alt="persona">
+                    <p class="nanum-square-like text-3xl">김지영 (38세)</p>
+                    <p class="nanum-gothic text-xl text-gray-600">직장인 (육아휴직 중), 초3 남아</p>
+                    <div class="mt-4 text-left space-y-2 text-lg nanum-gothic">
+                        <p><strong class="w-24 inline-block">관심사:</strong> 교육, 체험학습, 주말 나들이</p>
+                        <p><strong class="w-24 inline-block">SNS:</strong> 인스타그램, 유튜브 키즈 콘텐츠</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="nanum-square-like text-3xl text-center mt-8 p-4 bg-teal-100 text-teal-800 rounded-lg">핵심 타겟: "초등학생 자녀를 둔 학부모 (어머니 중심 가족 단위)"</p>
+    </div>
+</body>
+</html>

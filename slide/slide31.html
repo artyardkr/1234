@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 31: Risk Matrix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; }
+        .slide { width: 1280px; height: 720px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .nanum-gothic { font-family: 'Nanum Gothic', sans-serif; }
+        .nanum-square-like { font-family: 'Noto Sans KR', sans-serif; font-weight: 700; }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="slide bg-white p-16 flex flex-col">
+        <h1 class="nanum-square-like text-5xl text-gray-800 text-center">📊 리스크 매트릭스</h1>
+        <div class="flex-grow mt-8 flex items-center justify-center">
+            <div class="relative w-full max-w-3xl aspect-square">
+                <div class="absolute inset-0 grid grid-cols-2 grid-rows-2 border-2 border-gray-300">
+                    <div class="border-r border-b border-gray-300 p-4">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold">🟡</div>
+                        <p class="mt-2 font-bold">인플루언서<br>협업 실패</p>
+                    </div>
+                    <div class="border-b border-gray-300 p-4">
+                        <div class="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold">🔴</div>
+                        <p class="mt-2 font-bold">예산 부족</p>
+                    </div>
+                    <div class="border-r border-gray-300 p-4">
+                        <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">🟢</div>
+                        <p class="mt-2 font-bold">관람객 급증</p>
+                    </div>
+                    <div class="p-4">
+                        <div class="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold">🔴</div>
+                        <p class="mt-2 font-bold">성과 미달</p>
+                    </div>
+                </div>
+                <div class="absolute -bottom-8 left-0 right-0 text-center text-xl font-bold">발생 가능성 →</div>
+                <div class="absolute -left-8 top-0 bottom-0 flex items-center -rotate-90 text-xl font-bold">영향도 →</div>
+            </div>
+        </div>
+        <div class="flex justify-center space-x-6 mt-16 text-xl">
+            <span><span class="font-bold text-red-500">🔴 최우선 대응</span></span>
+            <span><span class="font-bold text-yellow-400">🟡 중요</span></span>
+            <span><span class="font-bold text-green-500">🟢 관찰</span></span>
+        </div>
+    </div>
+</body>
+</html>

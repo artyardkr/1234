@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 13: Customer Journey Map</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; }
+        .slide { width: 1280px; height: 720px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .nanum-gothic { font-family: 'Nanum Gothic', sans-serif; }
+        .nanum-square-like { font-family: 'Noto Sans KR', sans-serif; font-weight: 700; }
+        .pain-point { border: 2px solid #EF4444; background-color: #FEF2F2; color: #B91C1C; }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="slide bg-white p-16 flex flex-col">
+        <h1 class="nanum-square-like text-5xl text-gray-800">🛤️ 고객 여정 맵 (Customer Journey Map)</h1>
+        <div class="flex-grow mt-12 flex items-start justify-between text-center nanum-gothic">
+            <!-- Step 1 -->
+            <div class="w-1/6 flex flex-col items-center"><div class="text-5xl">😐</div><h3 class="text-xl font-bold mt-2">인지</h3><div class="pain-point p-2 mt-2 text-sm rounded-md w-full">SNS/광고에서 못 봄</div></div>
+            <i class="fas fa-arrow-right text-3xl text-gray-300 mt-8"></i>
+            <!-- Step 2 -->
+            <div class="w-1/6 flex flex-col items-center"><div class="text-5xl">😊</div><h3 class="text-xl font-bold mt-2">검색</h3><div class="pain-point p-2 mt-2 text-sm rounded-md w-full">정보 부족, 리뷰 적음</div></div>
+            <i class="fas fa-arrow-right text-3xl text-gray-300 mt-8"></i>
+            <!-- Step 3 -->
+            <div class="w-1/6 flex flex-col items-center"><div class="text-5xl">😍</div><h3 class="text-xl font-bold mt-2">관람 초반</h3><div class="p-2 mt-2 text-sm rounded-md w-full border-2 border-transparent"></div></div>
+            <i class="fas fa-arrow-right text-3xl text-gray-300 mt-8"></i>
+            <!-- Step 4 -->
+            <div class="w-1/6 flex flex-col items-center"><div class="text-5xl">😐</div><h3 class="text-xl font-bold mt-2">관람 중반</h3><div class="pain-point p-2 mt-2 text-sm rounded-md w-full">피로감, 휴식 공간 부족</div></div>
+            <i class="fas fa-arrow-right text-3xl text-gray-300 mt-8"></i>
+            <!-- Step 5 -->
+            <div class="w-1/6 flex flex-col items-center"><div class="text-5xl">😞</div><h3 class="text-xl font-bold mt-2">종료</h3><div class="pain-point p-2 mt-2 text-sm rounded-md w-full">카페·식당 없음</div></div>
+        </div>
+        <div class="mt-12 space-y-4">
+            <div class="flex items-center"><div class="w-8 h-8 rounded-md pain-point mr-4"></div><p class="text-2xl nanum-gothic">Pain Point: 고객이 불편함과 불만족을 느끼는 지점</p></div>
+            <p class="nanum-square-like text-3xl text-center mt-8 p-4 bg-teal-100 text-teal-800 rounded-lg">🎯 개선 목표: 각 단계의 Pain Point를 해결하여 전체 여정의 만족도 극대화</p>
+        </div>
+    </div>
+</body>
+</html>
